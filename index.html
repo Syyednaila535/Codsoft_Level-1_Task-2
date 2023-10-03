@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>hfhh</title>
+	<link rel="stylesheet" type="text/css" href="landstyle.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- Header -->
+<div id="nav">
+	<div class="logo"><i class="fa fa-coffee"></i></div>
+	<div class="items">
+		 <ul id="sidemenu">
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#menu">MENU</a></li>
+			<li><a href="#about">ABOUT US</a></li>
+			<li><a href="#contact">CONTACT US</a></li>
+		 <i class="fa fa-times" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa fa-bars" onclick="openmenu()"></i>
+</div></div>
+     <!-- Home section -->
+<div id="home">
+	<div class="content">
+		<h1>Welcome to Coffee corner</h1>
+		<h2>Discover the perfect cup of coffee, and make your day great with our delicious coffee</h2>
+		<p>Indulge in our rich, handcrafted coffee beans that will awaken your sense</p>
+		<button>Buy Now&nbsp;<i class="fa fa-shopping-cart"></i></button>
+	</div>
+</div>
+     <!-- Menu section -->
+<div id="menu">
+        <h1>Our Menu</h1>
+        <marquee behavior="alternate"><h2>Choose your favourite coffee</h2></marquee>
+         <div class="intro">
+              <div class="pic"><img src="landing images/heart.jpg" height="200px" width="200px"></div>
+                <div class="txt">
+            <h4>Trendy Coffee&nbsp;<i class="fa fa-coffee"></i></h4>
+            <article>There are various type of Coffee from our recommendation, Start your day with the warmth of a fresh brewed cup of our artisanal coffee. Elevate your morning ritual and savour the taste of perfection in every sip.  </article>
+            <button>Order Now&nbsp;<i  class="fa fa-shopping-cart"></i></button>
+        </div>
+
+   </div>
+        <div id="coffee">
+        <div class="menu-item">
+              <div class="pic"><img src="landing images/coffee.jpg" height="200px" width="200px"></div>
+                <div class="txt"><h3>Cappuccino</h3>
+            <p>Smooth, creamy, and oh-so-delicious.</p>
+            <center><strong><h5>$15.99</h5></strong></center>
+            </div> <center><button>Add To Cart&nbsp;<i class="fa fa-shopping-cart"></i></button></center>
+        </div>
+         <div class="menu-item">
+              <div class="pic"><img src="landing images/cup.jpg" height="200px" width="200px"></div>
+                <div class="txt"><h3>Cappuccino</h3>
+            <p>Smooth, creamy, and oh-so-delicious.</p>
+            <center><strong><h5>$15.99</h5></strong></center>
+          </div> <center><button>Add To Cart&nbsp;<i  class="fa fa-shopping-cart"></i></button></center></div>
+          <div class="menu-item">
+              <div class="pic"><img src="landing images/dark.jpg" height="200px" width="200px"></div>
+                <div class="txt"><h3>Cappuccino</h3>
+            <p>Smooth, creamy, and oh-so-delicious.</p>
+            <center><strong><h5>$15.99</h5></strong></center>
+              </div> <center><button>Add To Cart&nbsp;<i  class="fa fa-shopping-cart"></i></button></center></div>
+          </div>
+                  <center><a href=""><h6>View More<i class="fa fa-arrow-right"></i></h6></center>
+          </div></div>
+          <!-- About section -->
+           <div id="about">
+                <h1>About&nbsp;<span>Us</span></h1>
+                <h2>Serving the best Coffee since 1990</h2> 
+                <article>At Coffee Corner, we are passionate about serving the finest coffee in town. Our beans are sourced from the best coffee plantations and expertly brewed to perfection.
+                      Coffee Delights is a passionate coffee roastery dedicated to delivering the finest coffee experience.
+                      Our journey began in the lush coffee farms of Colombia, where we carefully select the best coffee beans for our blends.
+                      We take pride in our sustainable practices, ensuring that every cup of coffee is not only delicious but also eco-friendly.</article>
+          </div>
+          <!--Contact section-->
+          <div id="contact">
+          	<h1>Contact Us</h1>
+          	<h2>If you have any question or feedback, please don't hesitate to reach out to us.</h2>
+          	  <div class="contactform"><form action="https://formsubmit.co/nailamasood535@gmail.com" method="POST" />
+          	  	<h3>Get in touch</h3>
+                 <input type="text" name="Fullname" placeholder="Fullname" class="textbox" required><br>
+                 <input type="Email" name="Email" placeholder="Email" class="textbox" required><br>
+                 <textarea name="message" rows="5"placeholder="Your message" class="textbox"required></textarea>
+              <br><button type="Send"><i class="fa fa-paper-plane"></i>Send</button></form></div>
+              <div id="social-icons">
+              	<i class="fa fa-facebook"></i>
+              	<i class="fa fa-instagram"></i>
+              	<i class="fa fa-whatsapp"></i>
+              	<i class="fa fa-phone"></i>
+              	<i class="fa fa-envelope"></i>
+              </div>
+      </div>
+               <!-- Footer -->
+  <footer>
+    <span>
+      <a href="" style="color: ghostwhite"> Coffee Corner</a> | <span class="fa fa-copyright" style="color: #fff; font-size:100%;"></span> 2023 All Rights Reserved. Privacy Policy
+    </span>
+  </footer>
+  <!--For toggle nav bar-->
+ <script>
+       var sidemenu= document.getElementById("sidemenu");
+       function openmenu(){
+         sidemenu.style.right="0";
+       }
+       function closemenu(){
+         sidemenu.style.right="-200px";
+       }
+  </script>          
+</body>
+</html>
