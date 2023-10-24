@@ -1,4 +1,6 @@
-# Codsoft_Level-1_Task-2
+# Landing Page
 This is a Landing page project of the Codsoft internship program.
 # About this landing page:
-The landing page is almost complete, working on making it fully responsive.
+Fully responsive coffee landing page, languages used only Html and Css.
+# Project Link
+https://syyednaila535.github.io/Landing-Page/
